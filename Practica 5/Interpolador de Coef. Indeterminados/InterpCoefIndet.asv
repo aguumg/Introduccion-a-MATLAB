@@ -1,0 +1,7 @@
+function [ P ] = InterpCoefIndet( x,y )
+t=length(x);
+A(:,1)=ones(
+for i=1:
+
+end
+

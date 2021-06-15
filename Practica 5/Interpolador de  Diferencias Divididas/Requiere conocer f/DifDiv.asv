@@ -1,0 +1,7 @@
+function [ A ] = DifDiv( f,x )
+A(1)=f(x(1));
+for i=2:length(x)
+    A(i)=(f(x(i))-A(i-1))/(x(i)-x(i-1));
+
+end
+
